@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    background-color: black;
+    width: 500px;
+    margin:3rem auto;
+    color: white;
+    border-radius: 4rem;
+    height: 820px;
+}
+
+.cikti{
+    height: 200px;
+  position: relative;
+}
+.yazi{
+    /* border: 2px solid red; */
+    height: 200px;
+     height: 6rem;
+    
+     font-size: 3rem;
+     position: absolute;
+     bottom: 0;
+    right: 35px;
+    width: 27rem;
+    direction: rtl;
+    color: hotpink;
+    font-weight: 550;
+    font-size: 3.4rem;
+
+     
+}
+
+.sayilar{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(5,1fr);
+     row-gap: 1.5rem;
+     column-gap: 1rem;
+     margin-left: 5%;
+     margin-right: 5%;
+     margin-bottom: 1rem;
+     /* border: 2px solid rgb(170, 23, 23); */
+
+}
+
+
+.sayi{
+    /* background-color: grey; */
+    border-radius: 50%;
+    /* text-align: center; */
+    height: 6rem;
+    width: 6rem;
+    /* padding: 18px; */
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color: #333333;
+}
+
+.sifir{
+    /* background-color: grey; */
+    grid-column: 1/3;
+    width: 13rem;
+    border-radius: 50px;
+    justify-content: start;
+    padding-left: 35px;
+}
+
+.bölme , .x , .eksi , .arti{
+    background-color:#e78f1b;
+}
+.ac , .arti-eksi ,.mod {
+background-color: rgb(168, 167, 167);
+color: black;
+font-weight: 700;
+}
+
+.sayi:hover{
+    opacity: 0.4;
+    background-color: aqua;
+    cursor: pointer;
+    transition: all 0.5s;
+}
